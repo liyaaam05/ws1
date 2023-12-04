@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation Form</title>
+</head>
+<body>
+    <h1>Travel Reservation Form</h1>
+    <h4>INFORMATION:</h4>
+    <form action="/action_page.php">
+        <label for="fname">Full name :</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Email Address :</label><br>
+        <input type="text" id="lname" name="gmail" value=""><br><br>
+      </form> 
+      <form action="/action_page.php">
+        <label for="flight">Choose Flight:</label>
+        <select name="flight" id="flight">
+          <option value="Round-trip">Round-trip</option>
+          <option value="One-way">One-way</option>
+        </select>
+        <h4>DATE:</h4>
+        <form action="/action_page.php">
+            <label for="birthday">Depart:</label>
+            <input type="date" id="date" name="date">
+          <form action="/action_page.php">
+            <label for="birthday">Return:</label>
+            <input type="date" id="date" name="date">
+          </form>
+        <h4>NUMBERS OF PASSENGER/S: </h4>
+        <form action="/action_page.php">
+            <label for="fname">ADULTS:</label>
+            <input type="text" id="numbers" name="numbers" value="">
+            <label for="lname">CHILDREN:</label>
+            <input type="text" id="numbers" name="gmail" value="">
+            <label for="lname">INFANT:</label>
+            <input type="text" id="numbers" name="NUMBERS" value="">
+          </form><br>
+        <h4>ADD ONS</h4>
+
+            <form action="/action_page.php">
+            <input type="checkbox" id="addons1" name="addons1" value="kilo">
+            <label for="kilo">ADD KG ON BAGGAGE </label><br>
+            <input type="checkbox" id="food" name="food" value="food">
+            <label for="vehicle2">ADD FOOD</label><br>
+            <input type="checkbox" id="window" name="window" value="window">
+            <label for="vehicle3">WINDOW VIEW</label><br><br>
+         </form><br>
+         
+         <h4>PROMO DISCOUNT/COUPON</h4>
+
+         <form action="/action_page.php">
+            <label for="fname">ENTER CODE:</label>
+            <input type="text" id="numbers" name="numbers" value="">
+         </form>
+         <form action="">
+            <h2>TERMS AND AGGREEMENT:</h2>
+            <input type="radio" id="Aggree" name="Aggree" value="HTML">
+            <label for="html">Aggree</label>
+            <input type="radio" id="dont" name="dont" value="CSS">
+            <label for="css">Disaggree</label><br>
+         </form>
+            <h2>FINISH FORM</h2>
+         <button>COMPLETE RESERVATION</button>
+</body>
+</html>
